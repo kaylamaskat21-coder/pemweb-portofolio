@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Kontak</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header>
+        <nav class="navbar">
+            <h1 class="logo">Kayla Maskat</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html" class="active">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>\
+
+    <main>
+        <h2>Form Request Project</h2>
+        <form class="contact-form">
+            <label>Nama:</label>
+            <input type="text" name="nama" required>
+
+            <label>Email:</label>
+            <input type="email" name="email" required>
+
+            <label>Jenis Layanan:</label>
+            <select name="layanan">
+                <option value="website">Pembuatan Website</option>
+                <option value="uiux">Desain UI/UX</option>
+                <option value="konsultasi">Konsultasi Teknologi</option>
+            </select>
+
+            <label>Deskripsi Proyek:</label>
+            <textarea name="pesan" rows="4"></textarea>
+
+            <label>
+                <input type="checkbox" required> Saya menyetujui syarat dan ketentuan
+            </label>
+
+            <button type="submit">Kirim</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2025 Kayla Maskat | <a href="https://itpln.ac.id" target="_blank">Kampus ITPLN</a></p>
+    </footer>
+</body>
+</html>
